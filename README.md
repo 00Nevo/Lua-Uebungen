@@ -1,5 +1,5 @@
 # Lua-Uebungen/Exercises
-
+```lua
 Lua 5.4.2  Copyright (C) 1994-2020 Lua.org, PUC-Rio
 > print("Hello World")
 Hello World
