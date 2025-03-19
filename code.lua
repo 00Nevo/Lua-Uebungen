@@ -1,4 +1,11 @@
 # Lua-Uebungen/Exercises
+
+I finished reading/working on.
+
+Part I. The Basics
+
+Chapter 1. Getting Started
+
 ```lua
 Lua 5.4.2  Copyright (C) 1994-2020 Lua.org, PUC-Rio
 > print("Hello World")
@@ -7,6 +14,8 @@ Hello World
 > function fact (n) if n == 0 then return 1 else return n fact(n-1) end end print("enter a number:") a = io.read("n") --
  reads a number print(fact(a))
 stdin:1: 'end' expected near 'fact'
+
+Chunks
 > a = 1 b=a*2 a=1; b =a*2; a=1; b=a*2 a=1 b=a*2 -- ugly, but valid
 > lua
 nil
