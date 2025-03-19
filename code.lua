@@ -16,7 +16,11 @@ Hello World
 stdin:1: 'end' expected near 'fact'
 
 Chunks
+
+Some Lexical Conventions
 > a = 1 b=a*2 a=1; b =a*2; a=1; b=a*2 a=1 b=a*2 -- ugly, but valid
+
+Global Variables
 > lua
 nil
 > % lua
