@@ -64,6 +64,9 @@ nil
 nil
 > print(b) --> nil b=10 print(b) -->10
 nil
+
+ The Stand-Alone Interpreter
+ 
 > math.sin(3)
 0.14112000805987
 > a=30
