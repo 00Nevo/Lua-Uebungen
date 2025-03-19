@@ -20,7 +20,6 @@ Chunks
 Some Lexical Conventions
 > a = 1 b=a*2 a=1; b =a*2; a=1; b=a*2 a=1 b=a*2 -- ugly, but valid
 
-Global Variables
 > lua
 nil
 > % lua
@@ -32,6 +31,7 @@ stack traceback:
         [C]: in ?
 > exit
 nil
+
 > lua -i prog
 stdin:1: syntax error near '-'
 > function norm (x, y) return (x^2 + y^2)^0.5 end function twice (x) return 2*x end
@@ -41,8 +41,13 @@ stack traceback:
         [C]: in function 'dofile'
         stdin:1: in main chunk
         [C]: in ?
+
+ 
 > --[[ print(10) -- no action (commented out) --]]
 > --[[ print(10) --> 10 --]]
+
+ Global Variables
+ 
 > print(b) --> nil b=10 print(b) -->10
 2
 > b=nil print(b) -->nil
