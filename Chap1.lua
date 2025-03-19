@@ -41,6 +41,13 @@ Chunks
 > os.exit()
 -- chat gpt says there is a quit() cmd in the cmd line but apparently it doesnt work.. only os.exit() works
 
+-- math.pi / 4 not working!?
+-- in the book is exponentiation not working
+--  chat gpt gives solution but also = at beginning works similar to Racket lang
+> a = 3
+> = a^2
+9
+
 Some Lexical Conventions
 > a = 1 b=a*2 a=1; b =a*2; a=1; b=a*2 a=1 b=a*2 -- ugly, but valid
 
