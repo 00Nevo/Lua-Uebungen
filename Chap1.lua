@@ -2,6 +2,18 @@
 
 I finished reading/working on.
 
+Programming in Lua, Fourth Edition
+Roberto Ierusalimschy
+Copyright © 2016, 2003 Roberto Ierusalimschy
+
+About the Book
+Audience
+Book Structure
+Other Resources
+A Few Typographical Conventions
+Running the Examples
+Acknowledgments
+
 Part I. The Basics
 
 Chapter 1. Getting Started
@@ -73,3 +85,5 @@ nil
 > =a
 30
 >
+
+ 
