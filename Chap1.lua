@@ -49,6 +49,9 @@ Chunks
 -- the equal sign
 =math.pi /4
 0.78539816339745
+--other possibility using print and putting expression between brackets 
+print(a+2)
+17
 
 Some Lexical Conventions
 > a = 1 b=a*2 a=1; b =a*2; a=1; b=a*2 a=1 b=a*2 -- ugly, but valid
