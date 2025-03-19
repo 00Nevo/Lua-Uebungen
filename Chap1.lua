@@ -11,6 +11,12 @@ Audience
 Book Structure
 Other Resources
 A Few Typographical Conventions
+> -- program "Hello "World")
+> -- program "Hello "World"
+-- printing exercises
+-- numbers addition
+-- math.sin
+--variable=a=..
 Running the Examples
 Acknowledgments
 
