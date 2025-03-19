@@ -52,6 +52,7 @@ Chunks
 --other possibility using print and putting expression between brackets 
 print(a+2)
 17
+-- this is not working: $ lua -i prog.lua  
 
 Some Lexical Conventions
 > a = 1 b=a*2 a=1; b =a*2; a=1; b=a*2 a=1 b=a*2 -- ugly, but valid
