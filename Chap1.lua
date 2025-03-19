@@ -92,4 +92,10 @@ nil
 30
 >
 
+ -- how to enter and exit the lua interpreter
+ > script.lua
+>> os.exit
+> os.exit()
+-- chat gpt says there is a quit() cmd in the cmd line but apparently it doesnt work.. only os.exit() works
+ 
  
