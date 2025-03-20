@@ -57,8 +57,33 @@ print(a+2)
 -- i made a file txt and i called it lib1.lua but the code that is suggested in the book does not work even if the file is in the library folder of lua..no idea..
 -- book does not say where to put the lua file.. in cmd line it suggests [C]
 
+
+> lua -i prog
+stdin:1: syntax error near '-'
+> function norm (x, y) return (x^2 + y^2)^0.5 end function twice (x) return 2*x end
+> dofile("lib1.lua") -- load your library
+cannot open lib1.lua: No such file or directory
+stack traceback:
+        [C]: in function 'dofile'
+        stdin:1: in main chunk
+        [C]: in ?
+ 
 Some Lexical Conventions
-> a = 1 b=a*2 a=1; b =a*2; a=1; b=a*2 a=1 b=a*2 -- ugly, but valid
+--about identifiers, lua is case sensitive but "and" is both identifier and reserved word depending on how it is written with big or small cases
+--how to make comments
+ --[[ ]]--
+"--" in between comment space or --> 
+"---[[" --ordinary second line comment
+> --[[ print(10) -- no action (commented out) --]]
+> --[[ print(10) --> 10 --]]
+ 
+> a = 1
+b=a*2 
+a=1; b =a*2;
+a=1;
+b=a*2
+a=1
+b=a*2 -- ugly, but valid
 
 > lua
 nil
@@ -72,19 +97,7 @@ stack traceback:
 > exit
 nil
 
-> lua -i prog
-stdin:1: syntax error near '-'
-> function norm (x, y) return (x^2 + y^2)^0.5 end function twice (x) return 2*x end
-> dofile("lib1.lua") -- load your library
-cannot open lib1.lua: No such file or directory
-stack traceback:
-        [C]: in function 'dofile'
-        stdin:1: in main chunk
-        [C]: in ?
 
- 
-> --[[ print(10) -- no action (commented out) --]]
-> --[[ print(10) --> 10 --]]
 
  Global Variables
  
@@ -105,6 +118,10 @@ nil
 > print(b) --> nil b=10 print(b) -->10
 nil
 
+ Types and Values
+ Nil
+ Booleans
+ 
  The Stand-Alone Interpreter
  
 > math.sin(3)
