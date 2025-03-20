@@ -54,6 +54,9 @@ print(a+2)
 17
 -- this is not working: $ lua -i prog.lua  
 
+-- i made a file txt and i called it lib1.lua but the code that is suggested in the book does not work even if the file is in the library folder of lua..no idea..
+-- book does not say where to put the lua file.. in cmd line it suggests [C]
+
 Some Lexical Conventions
 > a = 1 b=a*2 a=1; b =a*2; a=1; b=a*2 a=1 b=a*2 -- ugly, but valid
 
