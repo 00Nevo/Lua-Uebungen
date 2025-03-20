@@ -123,6 +123,7 @@ nil
  Booleans
  
  The Stand-Alone Interpreter
+ --POSIX systems interpreter
  
 > math.sin(3)
 0.14112000805987
@@ -131,5 +132,9 @@ nil
 30
 >
 
+ --io.flush to finish the line with or without simicolon
+--there is a predefined global variable arg to find arguments
+ -- more often than not only positive indeces
+ --there are also vararg expression
  
  
