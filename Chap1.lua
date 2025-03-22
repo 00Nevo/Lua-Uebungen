@@ -137,4 +137,41 @@ nil
  -- more often than not only positive indeces
  --there are also vararg expression
  
- 
+-- i ran first exercise in R by using the code provided by chat gpt. Somehow the one provided in the lua book was not working but the R code appears to be working.
+ > # Define the factorial function
+> fact <- function(n) {
++   if (n == 0) {
++     return(1)
++   } else if (n < 0) {
++     stop("Factorial is not defined for negative numbers.")
++   } else {
++     return(n * fact(n - 1))
++   }
++ }
+> 
+> # Prompt the user for input
+> cat("Enter a number: ")
+Enter a number: > a <- as.integer(readLines(con = stdin(), n = 1))
+
+> # Check if the input is valid
+> if (!is.na(a)) {
++   # Check for negative input
++   if (a < 0) {
++     cat("Factorial is not defined for negative numbers.\n")
++   } else {
++     cat("Factorial: ", fact(a), "\n")
++   }
++ } else {
++   cat("Please enter a valid number.\n")
++ }
+Please enter a valid number.
+> .1
+[1] 0.1
+> -1
+[1] -1
+> -5
+[1] -5
+> 100
+[1] 100
+> 
+
