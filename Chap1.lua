@@ -176,5 +176,5 @@ Please enter a valid number.
 [1] 100
 > 
 
-Exercise 2 twice
+Exercise 2 called "twice"
 --
