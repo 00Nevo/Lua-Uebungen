@@ -136,7 +136,8 @@ nil
 --there is a predefined global variable arg to find arguments
  -- more often than not only positive indeces
  --there are also vararg expression
- 
+
+ Exercise 1 Factorial
 -- i ran first exercise in R by using the code provided by chat gpt. Somehow the one provided in the lua book was not working but the R code appears to be working.
  > # Define the factorial function
 > fact <- function(n) {
@@ -175,3 +176,5 @@ Please enter a valid number.
 [1] 100
 > 
 
+Exercise 2 twice
+--
