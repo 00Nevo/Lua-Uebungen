@@ -1,3 +1,8 @@
+##Coding Roblox
+The ultimate guide to creating games with Roblox Studio and Lua programming
+Zander Brumbaugh
+BIRMINGHAM—MUMBAI
+
 Who this book is for
 What this book covers
 To get the most out of this book
@@ -25,7 +30,9 @@ Builders
 UI/UX designers
 Gaining a perspective about
 your early projects
-Summary
+SummaryCoding 
+Roblox Games Made
+Easy
 
 Chapter 2: Knowing Your Work
 Environment
