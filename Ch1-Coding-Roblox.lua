@@ -1,4 +1,4 @@
-##Coding Roblox
+Coding Roblox
 The ultimate guide to creating games with Roblox Studio and Lua programming
 Zander Brumbaugh
 BIRMINGHAM—MUMBAI
