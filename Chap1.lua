@@ -177,4 +177,6 @@ Please enter a valid number.
 > 
 
 Exercise 2 called "twice"
---
+--end.. i don´t understand all this switching between interpreter and lua files and non interpreter and not using files. 
+        --I am using command line lua and i see no sign/symbol at the beginning of a line like in this book when he says "i switch to interpreter"
+        -- i am changing book and hopefully it is only using either interpreter or non interpreter..
